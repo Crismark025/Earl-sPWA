@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+body {
+  height: 100vh;
+  background-image: url('../img/background/pokebg.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed; 
+
+}
+
+#myimg {
+  height: 30vh;
+  filter: drop-shadow(10px 10px 30px rgb(238, 255, 0));
+
+  
+}
+.inputcontainer {
+
+  text-align: center;
+  padding-top: 7%;
+}
+button {
+  background-color: red;
+  padding: 5px;
+  border-radius: 20px;
+}
+button:active {
+  background-color: rgb(72, 255, 0);
+  padding: 5px;
+  border-radius: 20px;
+  transform: scale(1.1);
+}
+h1 {
+  color: white;
+  box-shadow: 2px 2px 20px rgb(229, 255, 0);
+}
+
+p {
+  color: rgb(191, 255, 0);
+}
