@@ -22,7 +22,8 @@ let button = document.querySelector('#search');
       alert("Please enter a valid Pokemon name");
     }
   });
-    
+
+     
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
      navigator.serviceWorker.register('sw.js').then( () => {
