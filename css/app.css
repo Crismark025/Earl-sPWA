@@ -19,22 +19,46 @@ body {
 .inputcontainer {
 
   text-align: center;
-  padding-top: 7%;
+  padding-top: 3%;
 }
+
+input {
+  padding: 12px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  border: 2px solid green;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+}
+
+#input:focus {
+  border-color: green;
+  box-shadow: 0 0 8px rgba(229, 255, 0, 0.5);
+}
+
 button {
-  background-color: red;
-  padding: 5px;
-  border-radius: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 button:active {
-  background-color: rgb(72, 255, 0);
-  padding: 5px;
-  border-radius: 20px;
-  transform: scale(1.1);
+  background-color: #d4ff00;
+  transform: scale(0.98);
 }
 h1 {
   color: white;
   box-shadow: 2px 2px 20px rgb(229, 255, 0);
+  backdrop-filter: blur(4px) brightness(0.9);
 }
 
 p {

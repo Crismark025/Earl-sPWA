@@ -16,11 +16,13 @@ let button = document.querySelector('#search');
           img.src = data.sprites.front_default;
           type.innerHTML = "<span style='color: yellow; font-weight: bold;'>Type: " + "</span>" + "<span style='color: green; background-color: yellow; padding: 10px; border-radius: 20px;'>" + data.types[0].type.name + "<span>" ;
           stats.innerHTML = data.stats[0].stat.name + ": " + data.stats[0].base_stat + "<br>" + data.stats[1].stat.name + ": " + data.stats[1].base_stat + "<br>" + data.stats[2].stat.name + ": " + data.stats[2].base_stat + "<br>" + data.stats[3].stat.name + ": " + data.stats[3].base_stat + "<br>" + data.stats[4].stat.name + ": " + data.stats[4].base_stat + "<br>" + data.stats[5].stat.name + ": " + data.stats[5].base_stat;
+          
         })
-        .catch((error) => console.log(error));
+        .catch((error) => alert("Please Enter the Correct Pokemon Name !"));
     } else {
-      alert("Please enter a valid Pokemon name");
+      alert("Input Cannot be Empty !");
     }
+    document.querySelector('#input').value = "";
   });
 
      
