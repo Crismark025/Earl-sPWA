@@ -62,6 +62,6 @@ h1 {
 }
 
 p {
-  color: green;
+  color: rgb(247, 247, 247);
   backdrop-filter: blur(2px);
 }
